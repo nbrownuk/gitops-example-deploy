@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: example-gitops-container
-          image: docker.pkg.github.com/ianmiell/example-gitops-app/example-gitops-app:dd231b980eaa
+          image: docker.pkg.github.com/nbrownuk/example-gitops-app/example-gitops-app:191ee6285d64
           command:
             - python
             - -m
